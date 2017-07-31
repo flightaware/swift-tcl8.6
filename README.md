@@ -12,7 +12,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftTcl",
-	dependencies: [ .Package(url: "https://github.com/snoe925/SwiftTcl8_6.git", versions: Version(1,0,0)..<Version(2,0,0)) ]
+	dependencies: [ .Package(url: "https://github.com/flightaware/swift-tcl8.6.git", versions: Version(1,0,0)..<Version(2,0,0)) ]
 )
 
 ```
