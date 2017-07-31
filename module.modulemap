@@ -1,0 +1,9 @@
+module Tcl8_6 [system] {
+  header "shim.h"
+  header "c/include/tclrefcount.h"
+  link "tcl8.6"
+  link "tclstub8.6" 
+  link "tclrefcount8.6"
+  link "z"
+  export *
+}
